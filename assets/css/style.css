@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    margin-bottom: 2rem;
+}
+
+.container{
+    margin-bottom: 1rem;
+    display: flex;    
+    justify-content: space-between;
+    box-shadow: 1px 1px 11px 2px #00000014;
+}
+
+.imagen_logo { margin: 7px 17px 0 0 ; height: 70px; width: 120px; } 
+
+.imagen_logo {
+    margin: 7px 17px 0 0 ;
+    height: 70px;
+    width: 120px;
+}
+
+.navbar .item i {
+  font-size: 35px;
+}
+.navbar .container {
+  max-width: 900px;
+  margin: 0 auto;
+  height: inherit;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: fixed; */
+}
+.navbar .item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  height: 60px;
+  box-shadow: 1px 1px 11px 2px #00000014;
+  position: fixed;
+  top:0;
+}
+
+/* 
+.header{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 6px 8px -2px rgba(0,0,0,0.63);
+} */
+
+.text{
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.img{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   display: inline-block;
+}
+
+.btn{
+    display: flex;
+    justify-content: start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .1rem;
+}
+
+.btn div{
+    display: inline-block;
+}
+
+#main{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.footer{
+    font-style: italic;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.reels{
+    margin-top:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0 10px;
+    height: 90px;
+    width: auto;
+    gap: 5px
+  }
+.img{
+    height: auto;
+    width: 80%;
+    border-radius: 50%;
+    border: solid 2px;
+    border-color: blue;
+}
+.reelName{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+
+.nav_menu{
+    position: fixed;
+    bottom: 0;
+    background-color: hsla(169, 11%, 97%, 10);
+    width: 80vw;
+    border-radius: 4rem;
+    padding: 1rem 2.25rem;
+    backdrop-filter: blur(10px);
+    margin-left: auto;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link{
+    color:black;
+    font-size: 1.25rem;
+    padding: .4rem;
+    display: flex;
+    border-radius: 5rem;
+}
